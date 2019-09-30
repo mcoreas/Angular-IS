@@ -5,7 +5,7 @@ import { CommentsListComponent } from './comments-list/comments-list.component';
 
 
 const routes: Routes = [
-  { path: 'posts', pathMatch: 'full', component: PostsListComponent},
+  { path: '', pathMatch: 'full', component: PostsListComponent},
   { path: 'post/:postId', component: CommentsListComponent},
 ];
 
